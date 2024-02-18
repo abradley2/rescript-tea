@@ -30,6 +30,10 @@ let on_with_options = {
   open Test_client_on_with_options
   main
 }
+let html_map = {
+  open Test_client_html_map
+  main
+}
 let http_task = {
   open Test_client_http_task
   main
